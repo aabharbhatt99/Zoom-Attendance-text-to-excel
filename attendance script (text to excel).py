@@ -19,7 +19,9 @@ def getStudentNames(className):
 
 def main():
     className = str(input("Attendance of class (9/10/11):  "))
-    
+    print(os.getcwd())
+    os.chdir(".\Documents\Zoom")
+    print(os.getcwd())
     students_dict = getStudentNames(className)
     
     folders = os.listdir('{}/'.format(className))
@@ -29,6 +31,8 @@ def main():
             file = '{}/meeting_saved_chat.txt'.format(folder)
             mark_attendance(className, students_dict, folder, file)
     print("Attendance Marked")
+    os.remove("df.csv")
+    os.remove("inter.csv")
     
 
 def mark_attendance(className, stu_dict, folder, file):
