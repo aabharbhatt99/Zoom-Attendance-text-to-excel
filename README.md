@@ -24,6 +24,6 @@ script will ask for input for your class, give the input and hit enter.
 The attendance will be marked automatically.
 when you want to take attendance for next day just do the same and the attendance will not overwrite but will be appended.
 
-https://user-images.githubusercontent.com/27891451/116847291-e31cdc00-ac07-11eb-9348-62d728408529.mp4
+![attendance script (text to excel) py - Visual Studio Code 2021-05-03 12-03-57](https://user-images.githubusercontent.com/27891451/116847537-5aeb0680-ac08-11eb-9e0f-248785900d6f.gif)
 
 once attendance is done, move all the chat files to done folder so that they wont be marked again.
